@@ -1,0 +1,58 @@
+#a{
+	position: absolute;
+    width: 390px;
+    height: 110px;
+    top: 35px;
+    left: 320px;
+}
+#b{
+	position: absolute;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 510px;
+    height: 390px;
+    top: 150px;
+    left: 165px;
+    padding: 15px;
+}
+#c{
+	position: absolute;
+    width: 450px;
+    height: 80px;
+    top: 600px;
+    left: 205px;
+}
+.title{
+	border-bottom: 1px solid black;
+    padding: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 75px;
+    font-weight: 600;
+}
+tr, td{
+	border-bottom: 1px solid black;
+}
+table{
+	border-collapse: collapse;
+    border-bottom: 1px solid black; 
+}
+a{
+	width: 100px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 3.5;
+    text-decoration: none;
+    font-size: 18px;
+    background: darkgray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5px;
+}
+a:hover {
+	background: gray;
+}
